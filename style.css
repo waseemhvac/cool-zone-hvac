@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid #eee;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo .cool {
+    color: #222;
+}
+
+.logo .hvac {
+    color: #5c6ac4;
+    margin-left: 4px;
+}
+
+/* Hero */
+.hero {
+    min-height: 90vh;
+    padding: 0 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 26px;
+    background: #5c6ac4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+/* Sections */
+section {
+    padding: 45px 8%;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Services */
+.services-list span {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 16px;
+    background: #f4f6fb;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Brand logos */
+.brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.brand-logos span {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-weight: 600;
+    background: #fff;
+    font-size: 14px;
+}
+
+/* WhatsApp button */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+/* BIG LOGO SECTION */
+.logo-section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f6f8ff;
+    padding: 40px 20px;
+}
+
+.big-logo {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.brand-name {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.brand-name span {
+    color: #5c6ac4;
+}
+
+.owner-line {
+    font-size: 18px;
+    color: #444;
+}
+
+.owner-line span {
+    color: #5c6ac4;
+    font-weight: 600;
+}
