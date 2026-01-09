@@ -218,3 +218,18 @@ section h2 {
     width: 100%;
     border-radius: 10px;
 }
+/* Fix spacing for Meet the Technician section */
+#about-me {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+/* Reduce space under the heading */
+#about-me h2 {
+    margin-bottom: 15px !important;
+}
+
+/* Reduce space under the profile card */
+#about-me .profile-card {
+    margin-bottom: 0 !important;
+}
