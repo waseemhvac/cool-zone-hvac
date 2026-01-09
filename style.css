@@ -171,7 +171,9 @@ section h2 {
     font-weight: 600;
 }
 .profile-photo {
-    width: 220px;
+    width: 180px;        /* smaller photo */
+    max-width: 80%;      /* prevents overflow on mobile */
     border-radius: 12px;
-    margin-top: 15px;
+    margin: 15px auto;   /* centers the photo */
+    display: block;
 }
