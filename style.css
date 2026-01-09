@@ -177,3 +177,24 @@ section h2 {
     margin: 15px auto;   /* centers the photo */
     display: block;
 }
+.profile-card {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.profile-title {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+}.profile-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
