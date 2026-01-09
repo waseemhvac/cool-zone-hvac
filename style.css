@@ -196,3 +196,7 @@ section h2 {
     color: #444;
     margin-top: 6px;
 }
+.profile-card p {
+    text-align: center !important;
+    font-weight: 800 !important;
+}
